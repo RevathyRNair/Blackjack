@@ -1,0 +1,43 @@
+
+body {
+    background-image: url(../images/bg-image.jpg);
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#title {
+    color: goldenrod;
+    font-size: 80px;
+}
+
+p {
+    font-size: 40px;
+    padding: 40px;
+    color: white;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.start-btn, .new-card-btn {
+    color: #016f32;
+    width: 200px;
+    background-color: goldenrod;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#player-el {
+    font-size: 30px;
+}
